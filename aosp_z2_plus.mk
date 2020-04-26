@@ -23,6 +23,10 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 # Inherit some common EvolutionX stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+CUSTOM_BUILD_TYPE := OFFICIAL
+EVO_DONATE_URL := https://paypal.me/varshankDhiman
+EVO_MAINTAINER := VarshankDhiman
+EVO_SUPPORT_URL := https://t.me/EvolutionXZ2_plus
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
