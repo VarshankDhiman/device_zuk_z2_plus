@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_z2_plus.mk
+    $(LOCAL_DIR)/evolution_z2_plus.mk
+
+COMMON_LUNCH_CHOICES := \
+    evolution_z2_plus-user \
+    evolution_z2_plus-userdebug \
+    evolution_z2_plus-eng
